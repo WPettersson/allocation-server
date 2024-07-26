@@ -9,3 +9,18 @@ Due to specific package dependencies available only in Python, the matching algo
 - Python: The core language used for building the server and the matching algorithm.
 - FastAPI: A modern, fast (high-performance), web framework for building APIs.
 - Pydantic: Used for data validation and type annotations.
+
+
+## Building
+
+To build the docker image, run
+
+    docker build -t allocation-server:latest .
+
+## Running
+
+To run the docker image, run
+
+    docker run -p 8000:8000 allocation-server
+
+
